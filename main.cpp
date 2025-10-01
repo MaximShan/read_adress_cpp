@@ -22,7 +22,7 @@ public:
 	}
 
 	void print() {
-		cout << city << ", " << street << ", äîì " << house << ", êâ. " << flat << endl;
+		cout << city << ", " << street << ", Ð´Ð¾Ð¼ " << house << ", ÐºÐ². " << flat << endl;
 	}
 	
 };
@@ -33,7 +33,7 @@ int main() {
 	int size;
 	ifstream file("in.txt");
 	if (!file.is_open()) {
-		cerr << "Íåóäàëîñü îòêðûòü ôàéë!" << endl;
+		cerr << "ÐÐµÑƒÐ´Ð°Ð»Ð¾ÑÑŒ Ð¾Ñ‚ÐºÑ€Ñ‹Ñ‚ÑŒ Ñ„Ð°Ð¹Ð»!" << endl;
 		return 1;
 	}
 	file >> size;
